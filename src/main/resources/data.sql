@@ -119,3 +119,44 @@ VALUES (
     'true');
 
 
+INSERT INTO
+    History (
+        id,
+        id_Todo,
+	todo_Description,
+        status,
+	date)
+VALUES (
+    '1',
+    '3',
+    'Laver la voiture',
+    'Created',
+    '2022-11-08 14:10');
+    
+INSERT INTO
+    History (
+        id,
+        id_Todo,
+	todo_Description,
+        status,
+	date)
+VALUES (
+    '2',
+    '1',
+    'Faire les courses',
+    'Modified',
+    '2022-11-08 14:15');
+    
+INSERT INTO
+    History (
+        id,
+        id_Todo,
+	todo_Description,
+        status,
+	date)
+VALUES (
+    '3',
+    '5',
+    'Lire un livre',
+    'Deleted',
+    '2022-11-08 14:20');
