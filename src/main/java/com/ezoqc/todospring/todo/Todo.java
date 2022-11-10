@@ -1,5 +1,7 @@
 package com.ezoqc.todospring.todo;
 
+import java.util.Date;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
@@ -9,12 +11,14 @@ public class Todo {
     private Long id;
     private String description;
     private boolean done;
+    private Date targetDate;
 
     protected Todo() {}
 
-    public Todo(String description, boolean done) {
+    public Todo(String description, boolean done, Date targetDate) {
         this.description = description;
         this.done = done;
+        this.targetDate = targetDate;
     }
 
     @Override
@@ -47,4 +51,12 @@ public class Todo {
     public void setDone(boolean done) {
         this.done = done;
     }
+
+	public Date getTargetDate() {
+		return targetDate;
+	}
+
+	public void setTargetDate(Date targetDate) {
+		this.targetDate = targetDate;
+	}
 }

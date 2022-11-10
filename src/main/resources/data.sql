@@ -22,101 +22,121 @@ INSERT INTO
     Todo (
         id,
         description,
-        done)
+        done,
+        target_Date)
 VALUES (
     '1',
     'Faire les courses',
-    'true');
+    'true',
+    '2022-01-01');
     
 INSERT INTO
     Todo (
         id,
         description,
-        done)
+        done,
+        target_Date)
 VALUES (
     '2',
     'Jouer au soccer',
-    'false');
+    'false',
+    '2022-01-02');
     
 INSERT INTO
     Todo (
         id,
         description,
-        done)
+        done,
+        target_Date)
 VALUES (
     '3',
     'Laver la voiture',
-    'false');
+    'false',
+    '2021-01-01');
     
 INSERT INTO
     Todo (
         id,
         description,
-        done)
+        done,
+        target_Date)
 VALUES (
     '4',
     'Faire du sport',
-    'false');
+    'false',
+    '2022-02-01');
     
 INSERT INTO
     Todo (
         id,
         description,
-        done)
+        done,
+        target_Date)
 VALUES (
     '5',
     'Lire un livre',
-    'true');
+    'true',
+    '2022-03-26');
 
 INSERT INTO
     Todo (
         id,
         description,
-        done)
+        done,
+        target_Date)
 VALUES (
     '6',
     'Prendre une douche',
-    'false');
+    'false',
+    '2022-01-15');
 
 INSERT INTO
     Todo (
         id,
         description,
-        done)
+        done,
+        target_Date)
 VALUES (
     '7',
     'Gonfler les pneus',
-    'true');
+    'true',
+    '2022-08-01');
 
 INSERT INTO
     Todo (
         id,
         description,
-        done)
+        done,
+        target_Date)
 VALUES (
     '8',
     'Faire de l''essence',
-    'true');
+    'true',
+    '2022-01-01');
 
 INSERT INTO
     Todo (
         id,
         description,
-        done)
+        done,
+        target_Date)
 VALUES (
     '9',
     'Aller au cinéma',
-    'true');
+    'true',
+    '2022-07-13');
 
 INSERT INTO
     Todo (
         id,
         description,
-        done)
+        done,
+        target_Date)
 VALUES (
     '10',
     'Commander un gateau d''anniversaire',
-    'true');
+    'true',
+    '2022-02-28');
 
 
 INSERT INTO

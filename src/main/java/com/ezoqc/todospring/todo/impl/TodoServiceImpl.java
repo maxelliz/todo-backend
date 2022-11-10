@@ -71,6 +71,7 @@ public class TodoServiceImpl implements TodoService {
     		Todo todoToSave = todoList.iterator().next();
     		todoToSave.setDescription(todo.getDescription());
     		todoToSave.setDone(todo.isDone());
+    		todoToSave.setTargetDate(todo.getTargetDate());
     		History history = new History(todo.getId(), todo.getDescription(), HistoryEnum.Modified.name(), new Date());
         	historyRepository.save(history);
             return this.todoRepository.save(todoToSave);
